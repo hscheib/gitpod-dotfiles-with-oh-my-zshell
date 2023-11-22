@@ -1,0 +1,15 @@
+[safe]
+        directory = *
+[push]
+        default = simple
+[alias]
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        s = status
+        d = diff
+        co = checkout
+        cob = checkout -b
+[credential]
+        helper = /usr/bin/gp credential-helper
+[user]
+        name = Your Name
+        email = your.name@email.com
